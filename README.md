@@ -1,6 +1,9 @@
 # sudio — Suno Studio Power Tool
 
-CLI + Web dashboard for heavy Suno users (4,624+ songs, Angelika, Blak Pearl, Cold Case, etc.).
+CLI + Liquid Noir web dashboard for heavy Suno users (4,624+ songs, Angelika, Blak Pearl, Cold Case, etc.).
+
+## Web Dashboard
+Upload a Suno workspace CSV export → instant stats, stem-export priority list, and persona breakdown.
 
 ## Install (CLI)
 ```bash
@@ -11,10 +14,10 @@ pip install -e .
 
 ## Commands
 ```bash
-sudio analyze data/suno.csv          # Full report
-sudio priority data/suno.csv         # Stem export priority list
-sudio stats data/suno.csv            # Quick stats
-sudio suggest                       # Workflow tips
+sudio analyze data/suno.csv
+sudio priority data/suno.csv
+sudio stats data/suno.csv
+sudio suggest
 ```
 
 ## Vercel Deploy
